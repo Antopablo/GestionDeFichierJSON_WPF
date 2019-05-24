@@ -1,0 +1,82 @@
+﻿<Window x:Class="WPF_EditionJSON.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_EditionJSON"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Menu HorizontalAlignment="Left" VerticalAlignment="Top" Width="794" Margin="0,0,-0.4,0">
+            <MenuItem Header="Fichier" >
+                <MenuItem Name="ChargerJSON" Header="Charger JSON" Click="ChargerJSON_Click" />
+                <MenuItem Name="SauvJSON" Header="Sauvegarder JSON" Click="SauvJSON_Click" />
+                <MenuItem Name="EditJSON" Header="Editer JSON" Click="EditJSON_Click" />
+            </MenuItem>
+        </Menu>
+        <DataGrid Name="Data_Grid" HorizontalAlignment="Left" Height="179" Margin="10,90,0,0" VerticalAlignment="Top" Width="761" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Header="Auteur">                    
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Auteur}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                    <DataGridTemplateColumn.CellEditingTemplate>
+                        <DataTemplate>
+                            <TextBox Text="{Binding Auteur}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellEditingTemplate>
+                </DataGridTemplateColumn>
+                
+                <DataGridTemplateColumn Header="Titre">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Titre}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                    <DataGridTemplateColumn.CellEditingTemplate>
+                        <DataTemplate>
+                            <TextBox Text="{Binding Titre}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellEditingTemplate>
+                </DataGridTemplateColumn>
+                
+                <DataGridTemplateColumn Header="Date de Parution">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding AnneeSortie, StringFormat ='dd/MM/yyyy'}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                    <DataGridTemplateColumn.CellEditingTemplate>
+                        <DataTemplate>
+                            <DatePicker DisplayDateEnd="12/31/09" SelectedDate="{Binding AnneeSortie, StringFormat='dd/MM/yyyy'}" SelectedDateFormat="Short">
+                                <DatePicker.BlackoutDates>
+                                    <CalendarDateRange Start="01-01-2009"/>
+                                </DatePicker.BlackoutDates>
+                            </DatePicker>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellEditingTemplate>
+                </DataGridTemplateColumn>
+                
+                <DataGridTemplateColumn Header="Résumé">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Resume}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                    <DataGridTemplateColumn.CellEditingTemplate>
+                        <DataTemplate>
+                            <TextBox Text="{Binding Resume}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellEditingTemplate>
+                </DataGridTemplateColumn>
+                
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Window>

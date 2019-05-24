@@ -1,0 +1,15 @@
+C:\Users\stagiaire\source\repos\WPF_EditionJSON\WPF_EditionJSON\bin\Debug\WPF_EditionJSON.exe.config
+C:\Users\stagiaire\source\repos\WPF_EditionJSON\WPF_EditionJSON\bin\Debug\WPF_EditionJSON.exe
+C:\Users\stagiaire\source\repos\WPF_EditionJSON\WPF_EditionJSON\bin\Debug\WPF_EditionJSON.pdb
+C:\Users\stagiaire\source\repos\WPF_EditionJSON\WPF_EditionJSON\obj\Debug\WPF_EditionJSON.csprojAssemblyReference.cache
+C:\Users\stagiaire\source\repos\WPF_EditionJSON\WPF_EditionJSON\obj\Debug\MainWindow.g.cs
+C:\Users\stagiaire\source\repos\WPF_EditionJSON\WPF_EditionJSON\obj\Debug\App.g.cs
+C:\Users\stagiaire\source\repos\WPF_EditionJSON\WPF_EditionJSON\obj\Debug\WPF_EditionJSON_MarkupCompile.cache
+C:\Users\stagiaire\source\repos\WPF_EditionJSON\WPF_EditionJSON\obj\Debug\WPF_EditionJSON_MarkupCompile.lref
+C:\Users\stagiaire\source\repos\WPF_EditionJSON\WPF_EditionJSON\obj\Debug\MainWindow.baml
+C:\Users\stagiaire\source\repos\WPF_EditionJSON\WPF_EditionJSON\obj\Debug\WPF_EditionJSON.g.resources
+C:\Users\stagiaire\source\repos\WPF_EditionJSON\WPF_EditionJSON\obj\Debug\WPF_EditionJSON.Properties.Resources.resources
+C:\Users\stagiaire\source\repos\WPF_EditionJSON\WPF_EditionJSON\obj\Debug\WPF_EditionJSON.csproj.GenerateResource.cache
+C:\Users\stagiaire\source\repos\WPF_EditionJSON\WPF_EditionJSON\obj\Debug\WPF_EditionJSON.csproj.CoreCompileInputs.cache
+C:\Users\stagiaire\source\repos\WPF_EditionJSON\WPF_EditionJSON\obj\Debug\WPF_EditionJSON.exe
+C:\Users\stagiaire\source\repos\WPF_EditionJSON\WPF_EditionJSON\obj\Debug\WPF_EditionJSON.pdb
